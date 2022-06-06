@@ -79,7 +79,6 @@ int main() {
 
 
     Graph graph(atom_number);
-    // cout << graph.adjacency_list.size() << endl;
 
     for (int i = 0; i < atom_number - 1; i++) {
       for (int j = i + 1; j < atom_number; j++) {
